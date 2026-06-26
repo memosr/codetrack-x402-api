@@ -128,6 +128,8 @@ const LANDING_PAGE_HTML = `<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="base:app_id" content="6a3e695f7fcafdab41c7e7f8" />
+<meta name="talentapp:project_verification" content="8b71219f15903fe902359d76ca6ba3308f027da1e3cbc3f7d5f8fe717fd4ced65f67e1855bbf02c9eaaa38c40b5204e7233b19eb0e2bcba925cda378dda445db" />
 <title>codetrack-x402-api</title>
 <style>
   :root {
