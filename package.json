@@ -1,0 +1,41 @@
+{
+  "name": "codetrack-x402-api",
+  "version": "1.0.0",
+  "description": "Pay-per-call API serving the CodeTrack Base Builder Codes leaderboard, gated with the x402 payment protocol.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "x402",
+    "base",
+    "base-mainnet",
+    "builder-codes",
+    "codetrack",
+    "leaderboard",
+    "usdc",
+    "micropayments"
+  ],
+  "author": "memosr",
+  "license": "MIT",
+  "homepage": "https://github.com/memosr/codetrack-x402-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memosr/codetrack-x402-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/memosr/codetrack-x402-api/issues"
+  },
+  "type": "module",
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "@x402/core": "^2.16.0",
+    "@x402/evm": "^2.16.0",
+    "@x402/express": "^2.16.0",
+    "@x402/extensions": "^2.16.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
